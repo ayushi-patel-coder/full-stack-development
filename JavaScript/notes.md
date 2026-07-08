@@ -17,3 +17,11 @@
   - null = intentionally empty
   - undefined = never assigned
 ---
+
+## 03. Conditionals
+- if/else → basic decision making
+- else if → multiple conditions check
+- Ternary → shorthand: condition ? true : false
+- Switch → multiple exact value matching
+- Always use === not == (strict equality)
+- break in switch is mandatory to stop fall-through
