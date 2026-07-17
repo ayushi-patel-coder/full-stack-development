@@ -25,3 +25,15 @@
 - Switch → multiple exact value matching
 - Always use === not == (strict equality)
 - break in switch is mandatory to stop fall-through
+---
+
+## 04. Type Conversions
+- Implicit conversion → JS automatically converts types
+- Explicit conversion → developer manually converts
+- String to Number: Number("10") → 10
+- Number to String: String(10) → "10"
+- Falsy values: 0, "", null, undefined, NaN, false
+- Truthy values: everything else
+- Tricky: Number("") → 0, Number(null) → 0, Number(undefined) → NaN
+
+----
