@@ -37,3 +37,12 @@
 - Tricky: Number("") → 0, Number(null) → 0, Number(undefined) → NaN
 
 ----
+
+## 05. Stack vs Heap Memory
+- Primitive types → stored in Stack (copy by value)
+  - let a = 10; let b = a; b = 20; → a stays 10
+- Non-primitive types → stored in Heap (copy by reference)
+  - let obj1 = {val:10}; let obj2 = obj1;
+  - obj2.val = 20 → obj1.val also becomes 20
+  - Both variables point to SAME memory location in heap
+- Key rule: Objects/Arrays are always passed by reference
