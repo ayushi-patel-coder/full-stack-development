@@ -9,7 +9,7 @@ from beginner to advanced.
 ## 📚 Topics Progress
 | Topic | Concepts Covered |
 |-------|-----------------|
-| JavaScript | 5 |
+| JavaScript | 6 |
 | React | 0 |
 | Node.js | 0 |
 | Express | 0 |
