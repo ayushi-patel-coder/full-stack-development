@@ -57,3 +57,15 @@
 - Array.isArray(val) → checks if value is array
 - Array.from("Ayushi") → creates array from string
 - Array.of(s1,s2,s3) → creates array from values
+
+
+## 07. Objects
+- Object = key-value pairs collection
+- Two ways to create:
+  - Singleton: const obj = new Object()
+  - Non-singleton: const obj = {} ← preferred
+- Add properties: obj.key = value
+- Nested objects: obj.fullname.userfullname.firstname
+- Access nested: regularUser.fullname.userfullname.firstname
+- Methods inside object: greeting: function() {}
+- Call method: juser.greeting()
