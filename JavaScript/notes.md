@@ -46,3 +46,14 @@
   - obj2.val = 20 → obj1.val also becomes 20
   - Both variables point to SAME memory location in heap
 - Key rule: Objects/Arrays are always passed by reference
+
+
+## 06. Arrays
+- Array = ordered collection of elements
+- Index starts from 0
+- const arr = [1,2,3] → still mutable (const means reference fixed)
+- Spread operator: [...arr1, ...arr2] → merge arrays
+- arr.flat(Infinity) → flattens nested arrays completely
+- Array.isArray(val) → checks if value is array
+- Array.from("Ayushi") → creates array from string
+- Array.of(s1,s2,s3) → creates array from values
